@@ -4,7 +4,7 @@
 
 Vulnerably Customers - Can we Use machine learning to aid in the early detection of vulnerability traits, through it’s application to a customers historical utility usage data and support interactions?
 
-Uses machine learning to analyse trends in user behaviour based on historical information and energy usage sourced from their support interactions and smart meters.
+Uses machine learning to analyse trends in user behaviour based on historical information and energy usage sourced from their support interactions and smart meter data.
 
 Builds up a profile of a user based on the above, allowing potential vulnerability indicators to be highlighted and contextual information provided to allow a proactive response before the customer becomes vulnerable.
 
@@ -42,4 +42,4 @@ Increase the complexity of the machine learning and analysis.
 
 Acquire smart meter Water data, in addition to electric.
 
-Improve the basic UI created.
+Improve the data presentation to increase clarity and provide more automated decision making.
