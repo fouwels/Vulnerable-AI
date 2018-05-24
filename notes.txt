@@ -1,0 +1,31 @@
+dementia
+- TEST
+- Memory test
+- sentiment
+
+financial
+- sentiment
+
+keywords
+- identify existing support (macmillan).
+
+currently
+- provided directly
+- from utility companies/face to face
+- energy company information shared.
+
+keywords
+- medical term
+- existing organistations
+- historical payments
+- historical sentiments
+
+Energy 
+- 
+
+touchpoint graph.
+http://archive.ics.uci.edu/ml/index.php
+https://www.kaggle.com/datasets
+
+
+https://environment.data.gov.uk/flood-monitoring/doc/reference

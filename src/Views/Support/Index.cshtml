@@ -1,0 +1,77 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+<div id="index-container-main" class="container-fluid">
+	
+	<div class="col-xs-12">
+		<div class="row">
+			<h1>Support</h1>
+		</div>
+	</div>
+	<div class="col-xs-5">
+
+		<div class="row">
+			<h3>Customer</h3>
+		</div>
+		<div class="row">
+			<div><span>Name: </span><span class="bold">Kaelan Fouwels</span></div>
+			<div><span>Financial Vulnerability Rating (APP): </span><span class="bold" id="vulrating">Requesting</span></div>
+			<div><span>Language: </span><span class="bold" id="language">Waiting</span></div>
+			<div><span>Energy Usage: </span><span class="bold" id="energyLabel">Requesting</span></div>
+			<div><span>Water Usage: </span><span class="bold" id="waterLabel">Disabled</span></div>
+			<div><span>Support Frequency: </span><span class="bold" id="supportLabel">Requesting</span></div>
+			<p>Contextual:</p>
+			<ul id="entities"></ul>
+			<br />
+		</div>
+		<div class="row">
+			<canvas id="supportFrequency" width="380" height="150"></canvas>
+		</div>
+		<div class="row">
+			<canvas id="sentimentChart" width="380" height="150"></canvas>
+		</div>
+		<div class="row">
+			<canvas id="energyChart" width="380" height="150"></canvas>
+		</div>
+		<div class="row">
+			<canvas id="energyAverageChart" width="380" height="150"></canvas>
+		</div>
+		<div class="row">
+			<canvas id="energyDelta" width="380" height="150"></canvas>
+		</div>
+	</div>
+	<div class="col-xs-1"></div>
+	<div class="col-xs-6">
+		<div class="row">
+			<h3>Dialogue</h3>
+		</div>
+		<div class="row">
+			<textarea id="area-chat" class="form-control" rows="20"></textarea>
+		</div>
+		<div class="row">
+			<h4>Customer</h4>
+			<input type="text" id="customer-input" class="input-chat form-control" />
+		</div>
+		<div class="row">
+			<h4>Representative</h4>
+			<input type="text" id="representative-input" class="input-chat form-control" />
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+
+		</div>
+	</div>
+	<div class="row">
+		<ul id="index-content"></ul>
+	</div>
+</div>
+
+@section scripts {
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+	<script src="~/controllers/support/index.js"></script>
+}
+@section styles {
+	<link rel="stylesheet" href="~/controllers/support/index.css" />
+}
