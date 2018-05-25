@@ -43,6 +43,6 @@ Increase the complexity of the machine learning and analysis.
 
 Acquire smart meter Water data, in addition to electric.
 
-Improve the basic UI created.
+Improve the data presentation to increase clarity and provide more automated decision making.
 
 [Slides](./slides.pdf)
