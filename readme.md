@@ -2,7 +2,7 @@
 
 ## Kaelan Thijs Fouwels
 
-Vulnerably Customers - Can we use machine learning to aid in the early detection of vulnerability traits, through it’s application to a customers historical utility usage data and support interactions?
+Vulnerable Customers - Can we use machine learning to aid in the early detection of vulnerability traits, through it’s application to a customers historical utility usage data and support interactions?
 
 Uses machine learning to analyse trends in user behaviour based on historical information and energy usage sourced from their support interactions and smart meters.
 
