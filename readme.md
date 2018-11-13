@@ -15,9 +15,9 @@ Uses the following sources:
 - Financial Vulnerability – Open banking team’s API
 - Machine Learning Key Text Entity Extraction
 
+[[Presentation slides]](./slides.pdf)
 
 ![Application Image](./img-application.png)
-
 
 ---
 
@@ -45,4 +45,3 @@ Acquire smart meter Water data, in addition to electric.
 
 Improve the data presentation to increase clarity and provide more automated decision making.
 
-[Slides](./slides.pdf)
